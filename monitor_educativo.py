@@ -84,8 +84,8 @@ FUENTES = [
      "etiqueta": "🟦📑 [BOLETÍN OFICIAL PBA]"},
 
     # -- Feed oficial nativo del Portal ABC (si responde; si no, se saltea) --
-    {"nombre": "Portal ABC", "ambito": "PBA", "filtrar": True,
-     "url": "https://abc.gob.ar/modulo/noticias/rss", "etiqueta": "🟦🏫 [PORTAL ABC]"},
+   {"nombre": "Portal ABC", "ambito": "PBA", "filtrar": False,
+ "url": google_news('site:abc.gob.ar'), "etiqueta": "🟦🏫 [PORTAL ABC]"},
 
     # ============ EDUCACIÓN NACIONAL ============
     {"nombre": "Secretaría Educación Nación", "ambito": "NACIÓN", "filtrar": False,
