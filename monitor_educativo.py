@@ -37,7 +37,7 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
-bot = telebot.TeleBot(TOKEN_TELEGRAM)
+bot = telebot.TeleBot(TOKEN_TELEGRAM, threaded=False
 
 
 def google_news(consulta):
