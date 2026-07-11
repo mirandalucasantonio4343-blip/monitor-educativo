@@ -27,4 +27,4 @@ jobs:
       env:
         TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
         CHAT_ID_TELEGRAM: ${{ secrets.CHAT_ID_TELEGRAM }}
-      run: python monitor_educativo.py
+      run: python monitor_educativo.py 
