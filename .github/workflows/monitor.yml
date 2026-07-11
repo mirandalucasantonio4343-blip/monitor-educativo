@@ -2,8 +2,8 @@ name: Monitor Educativo
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Se ejecuta cada 6 horas
-  workflow_dispatch: # Permite ejecutarlo manualmente
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
