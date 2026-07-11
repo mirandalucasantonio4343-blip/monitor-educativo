@@ -27,4 +27,5 @@ jobs:
       env:
         TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
         CHAT_ID_TELEGRAM: ${{ secrets.CHAT_ID_TELEGRAM }}
+        MODO: NUBE
       run: python monitor_educativo.py 
