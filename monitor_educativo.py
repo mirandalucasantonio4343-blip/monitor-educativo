@@ -135,7 +135,7 @@ def guardar_vistos(lista):
 def probar_conexion(enviar_aviso=True):
     """Verifica token y chat_id. En la nube no manda aviso (evita spam cada 15 min)."""
     try:
-        info = bot.get_me(timeout=10)
+        info = bot.get_me()
         print(f"✅ Bot conectado: @{info.username}")
     except Exception as e:
         print(f"❌ ERROR: el TOKEN es inválido o fue revocado -> {e}")
